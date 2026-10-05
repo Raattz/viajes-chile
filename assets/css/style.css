@@ -1,0 +1,141 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: #000;
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+}
+
+
+.navbar{
+    background: transparent;
+    transition: .5s;
+}
+
+.navbar-brand{
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.navbar-brand img{
+    margin-right: 8px;
+}
+
+.nav-link{
+    color: white !important;
+    margin-left: 15px;
+}
+
+.nav-link:hover{
+    color: #0dcaf0 !important;
+}
+
+
+.carousel-item img{
+    height: 100vh;
+    object-fit: cover;
+}
+
+
+h2{
+    font-weight: 400;
+}
+
+.linea{
+    border: 1px solid #0dcaf0;
+    opacity: 1;
+    width: 100%;
+}
+
+
+.icono{
+    background-color: #0dcaf0;
+    color: white;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+#quienes p{
+    text-align: justify;
+    line-height: 1.8;
+}
+
+
+.card{
+    background-color: #0dcaf0;
+    border: none;
+    color: white;
+    height: 100%;
+}
+
+.card img{
+    height: 180px;
+    object-fit: cover;
+}
+
+.card-title{
+    font-weight: bold;
+}
+
+.card-text{
+    font-size: 15px;
+}
+
+
+.form-control{
+    border-radius: 0;
+}
+
+.btn-info{
+    padding: 10px 25px;
+    font-weight: bold;
+}
+
+
+footer{
+    background-color: #0dcaf0;
+}
+
+footer h3{
+    font-size: 1.8rem;
+    font-weight: 500;
+}
+
+footer a{
+    color: white;
+    margin-left: 15px;
+    text-decoration: none;
+}
+
+footer a:hover{
+    color: black;
+    transition: .3s;
+}
+
+
+@media (max-width:768px){
+
+    .carousel-item img{
+        height: 60vh;
+    }
+
+    footer{
+        text-align: center;
+    }
+
+    footer .container{
+        flex-direction: column;
+        gap: 15px;
+    }
+
+}
